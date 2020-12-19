@@ -5,8 +5,8 @@ A [Digdag extension](https://docs.digdag.io/internal.html#extension) example.
 ## Run a workflow with ExampleExtension
 
 ```
-$ sbt publishLocal
-$ java -cp $(which digdag):target/scala-2.13/digdag-extension-example_2.13-0.1.0-SNAPSHOT.jar \
+$ sbt notification/publishLocal
+$ java -cp $(which digdag):target/scala-2.13/digdag-extension-example-notification_2.13-0.1.0-SNAPSHOT.jar \
   io.digdag.cli.Main run --no-save example.dig --config digdag.properties
 ```
 
